@@ -39,6 +39,8 @@ function zoom_ce()
 }
 
 
+
+
 function puntos()
 {
     document.getElementById('a').value = "0.85 - 0.35i";
