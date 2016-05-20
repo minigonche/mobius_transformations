@@ -16,6 +16,7 @@ class Index(object):
     def GET(self):
         return render.transformacion(a="1",b="0",c="0",d="1",loc="static/inicial.png")
 
+
     def POST(self):
         
         form = web.input(a="1",b="1j",c="1j",d="1",loc="static/inicial.png", ref = 0)
