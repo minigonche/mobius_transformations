@@ -1,0 +1,36 @@
+/* Styles go here */
+
+
+.jumbotron
+{
+  background-color: #A6A6A6 !important;
+}
+
+.margin
+{
+  margin-top:10px;margin-bottom:10px;
+}
+
+.cuerpo
+{
+ background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPgo8cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSI4IiBmaWxsPSIjNDAzYzNmIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMOCA4Wk04IDBMMCA4WiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2U9IiMxZTI5MmQiPjwvcGF0aD4KPC9zdmc+");
+}
+
+
+.img-responsive {
+    margin: 0 auto !important;
+    border: 4px ;  
+    border-style: solid;
+    border-color: #404040;
+}
+
+.btn
+{
+    background-color: #777777 !important;
+    color: white;
+    
+    border: 3px !important;  
+    border-style: solid !important;
+    border-color: #404040 !important;
+
+}

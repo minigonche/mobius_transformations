@@ -1,0 +1,79 @@
+$def with (a,b,c,d,loc)
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="static/bootstrap.min.css" >
+  <script src="static/script.js"></script>
+
+</head>
+
+<body class="cuerpo">
+
+
+     <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4" >
+        <h1><span class="label label-default">Transformaciones de Möbius</span></h1>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+ 
+  
+     <div class="row">
+       <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div class="jumbotron" style="margin-top:10px;" >
+          <div class="container">
+            <img  class="img-responsive" src="$loc">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  
+  <form id="form" action="/" method="POST">
+        <div class="row">
+         <div class="row">
+           <div class="col-sm-3"></div>
+           <div class="col-sm-6">
+              <div class="input-group">
+                <span class="input-group-addon" id="basic-addon3">a = </span>
+                <input type="text" class="form-control" name="a" aria-describedby="basic-addon3" value="$a">
+                <span class="input-group-addon" id="basic-addon3">b = </span>
+                <input type="text" class="form-control" name="b" aria-describedby="basic-addon3" value="$b">
+                <span class="input-group-addon" id="basic-addon3">c = </span>
+                <input type="text" class="form-control" name="c" aria-describedby="basic-addon3" value="$c">
+                <span class="input-group-addon" id="basic-addon3">d = </span>
+                <input type="text" class="form-control" name="d" aria-describedby="basic-addon3" value="$d">
+                <input type="hidden" name="ref" id="refrescar" value="0">
+
+              </div>
+            </div>
+           <div class="col-sm-3"></div>
+         </div>
+         
+         
+         
+        <div class="row" style="margin-top:10px">
+         <div class="col-sm-5"></div>
+         <div class="col-sm-4">
+           <div class="btn-group" role="group">
+            <input type="submit" class="btn" value="Transformar">
+            <input   type="button" class="btn" value="Reiniciar" onclick = "enviar()">
+            </div>
+         </div> 
+         <div class="col-sm-3"></div>
+       </div>
+       </div>
+     </form>  
+    
+
+
+
+
+
+</body>
+
+</html>
