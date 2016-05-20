@@ -18,22 +18,33 @@ function cayley()
   
 }
 
-function zoom()
+function zoom_iz()
 {
     document.getElementById('a').value = "1.5";
-    document.getElementById('b').value = "0.5 + 0.25i";
-    document.getElementById('c').value = "0.25 + 0.5i";
+    document.getElementById('b').value = "0.25 - 0.4i";
+    document.getElementById('c').value = "0.25 + 0.4i";
     document.getElementById('d').value = "1.5";
 
   
 }
 
+function zoom_ce()
+{
+    document.getElementById('a').value = "0.75";
+    document.getElementById('b').value = "-0.25 - 0.0001i";
+    document.getElementById('c').value = "-0.25 + 0.0001i";
+    document.getElementById('d').value = "0.75";
+
+  
+}
+
+
 function puntos()
 {
-    document.getElementById('a').value = "0.85 + 0.2i";
+    document.getElementById('a').value = "0.85 - 0.35i";
     document.getElementById('b').value = "0.35 - 0.15i";
     document.getElementById('c').value = "-0.35 + 0.15i";
-    document.getElementById('d').value = "0.85 + 0.2i";
+    document.getElementById('d').value = "0.85 - 0.35i";
 
   
 }

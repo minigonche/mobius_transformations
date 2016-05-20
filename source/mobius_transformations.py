@@ -326,14 +326,14 @@ def main():
     q = (90,630)
     
     #Hacer zoom
-    c = (180,240)
+    c = (180,360)
     
     #Hacer zoom
     c1 = (200,300)
     
-    M = three_points_to_three_points_pixel_coords(p1,q1,r1,p2,q2,r2,size)
+    #M = three_points_to_three_points_pixel_coords(p1,q1,r1,p2,q2,r2,size)
     #M = rotate_pixel_coords_p_to_q(p, q, size)
-    #M = zoom_in_on_pixel_coords(c, 2, size)
+    M = zoom_in_on_pixel_coords(c, 0.5, size)
     #M = rotate_around_axis_pixel_coord_p(q1,pi/2,size)
 
     #M = np.matrix([[1,-1j],[1,1j]])
