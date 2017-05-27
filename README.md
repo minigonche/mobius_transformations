@@ -1,4 +1,4 @@
-# mobius transformations
+# Mobius Transformations
 This project simply extends Henry Segerman's code for mobius transformations (http://elevr.com/spherical-video-editing-effects-with-mobius-transformations/)
 and adapts so that one can create any mobius transformation and see its efects directly over an image online. The code uses webpy to achieve this.
 
